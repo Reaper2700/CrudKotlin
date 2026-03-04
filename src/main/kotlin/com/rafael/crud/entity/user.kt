@@ -14,5 +14,9 @@ data class User(
     val name: String,
 
     @Column(name = "email")
-    val email: String
+    val email: String,
+
+    @Column(name = "role")
+    val role: String,
+
 )

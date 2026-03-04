@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*
 @RestController
 @RequestMapping("/users")
 
-class UserControles(
+class UserController(
     private val repository: UserRepository
 ){
 
